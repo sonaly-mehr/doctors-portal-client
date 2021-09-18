@@ -27,7 +27,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal, appointmentOn, date }) => {
         console.log(data);
         closeModal();
         alert('Appointment Created Sucessfully!')
-        fetch('http://localhost:4000/addAppointment', {
+        fetch('https://still-bastion-33207.herokuapp.com/addAppointment', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(data)

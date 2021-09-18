@@ -12,7 +12,7 @@ const DashBoard = () => {
     const handleDateChange = date => {
         setSelectedDate(date);
 
-        fetch('http://localhost:4000/appointmentByDate', {
+        fetch('https://still-bastion-33207.herokuapp.com/appointmentByDate', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({date})
