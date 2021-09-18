@@ -1,0 +1,36 @@
+.single-blog{
+    box-shadow: 3px 3px 8px #dad8d8;
+    height: 300px;
+    padding: 30px;
+}
+.single-blog .user-info{}
+.single-blog .user-img{}
+.single-blog .user-img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.single-blog .user-detail{
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.single-blog .user-detail h6{
+    color: #464646;
+    font-weight: 700;
+    margin-bottom: -2px;
+}
+.single-blog .user-detail span{
+    font-size: 12px;
+    font-weight: 600
+}
+.single-blog .blog-content{}
+.single-blog .blog-content h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.single-blog .blog-content p{
+    color: #666;
+    width: 102%;
+}

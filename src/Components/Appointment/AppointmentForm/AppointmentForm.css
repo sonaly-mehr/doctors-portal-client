@@ -1,0 +1,37 @@
+.appointment-from{
+    width: 600px;
+    padding: 15px 50px;
+    text-align: center;
+    height: 385px;
+}
+.appointment-from h2{
+    font-size: 20px;
+    color: #1CC7C1;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.appointment-from input, .appointment-from select{
+    width: 95%;
+    padding: 5px 15px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: none;
+    border: 1px solid #b0b0b0
+}
+.appointment-from input[type="submit"]{
+    background: linear-gradient(to right, #18D2B0 , #0FCFE7);
+    width: 30%;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0;
+    padding: 8px 0;
+}
+.date-style{
+    font-size: 12px;
+    color: #747474;
+    margin-top: -23px;
+}

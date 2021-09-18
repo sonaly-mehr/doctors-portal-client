@@ -1,0 +1,17 @@
+.single-service{}
+.service-img{}
+.service-img img{
+    width: 15%;
+}
+.serivice-info{}
+.serivice-info h6{
+    font-weight: 600;
+    color: #484848;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.serivice-info p{
+    width: 80%;
+    display: inline-block;
+    color: #898787;
+}

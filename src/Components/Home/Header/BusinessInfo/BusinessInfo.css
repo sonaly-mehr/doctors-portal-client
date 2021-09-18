@@ -1,0 +1,5 @@
+.business-info{
+    transform: translateY(-50%);
+    z-index: 150;
+    position: relative;
+}

@@ -1,0 +1,22 @@
+.dental-section{}
+.dental-img{}
+.dental-img img{
+    max-width: 100%;
+}
+.dental-content{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.dental-content h2{
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #3c3c3c;
+    margin-bottom: 40px;
+}
+.dental-content p{
+    width: 95%;
+    color: #868686;
+    line-height: 30px;
+    font-size: 16px;
+    padding-bottom: 30px;
+}

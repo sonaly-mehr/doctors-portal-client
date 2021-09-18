@@ -1,0 +1,60 @@
+.process-details{
+    padding-bottom: 150px;
+    padding-top: 30px;
+    position: relative;
+    
+}
+.dot1::before, .dot2::before, .dot3::before{
+    content: '';
+    position: absolute;
+    bottom: 143px;
+    width: 15px;
+    height: 15px;
+    background-color: #00ACB1;
+    border-radius: 50%;
+    left: 17%;
+}
+.dot2::before{
+    left: 46%;
+}
+.dot3::before{
+    left: 76%;
+}
+.process-wrap{border-bottom: 1px solid #ebebeb;}
+.process-heading{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.process-heading h6{
+    color: #01A7B9;
+    font-weight: 600;
+    font-size: 18px;
+}
+.process-heading h1{
+    color: #005C66;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: -8px;
+}
+.process-heading p{
+    color: #666565;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 45px;
+    line-height: 29px;
+}
+.process-heading button.appointment-button{
+    background: linear-gradient(to right, #18D2B0 , #0FCFE7);
+    margin-left: 150px;
+    width: 55%;
+    height: 65px;
+    border: none;
+    border-radius: 5px;
+}
+.process-heading button a{
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}

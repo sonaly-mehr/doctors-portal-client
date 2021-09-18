@@ -1,0 +1,49 @@
+.apointmentbanner-section{
+    background-image:url(../../../images/Mask\ Group\ 4.png);
+    margin-top: 150px;
+    background-position: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.apointmentbanner-section::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(58, 65, 84, 0.9);
+    left:0;right:0;top:0;bottom: 0;
+}
+.apointmentbanner-container{
+    z-index: 1;
+    position: relative;
+
+}
+.doctor-img{
+    position: relative;
+    top: -108px;
+    margin-bottom: -108px;
+}
+.doctor-img img{
+    max-width: 125%;
+    height: 500px;
+}
+.apointmentbanner-content{
+    padding-top: 50px;
+    margin-left: 30px;
+}
+.apointmentbanner-content h6{
+    text-transform: uppercase;
+    color: #1CC7C1;
+    font-weight: 600;
+}
+.apointmentbanner-content h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 10px;
+}
+.apointmentbanner-content p{
+    width: 75%;
+    color: #fff;
+    padding: 10px 0;
+}

@@ -1,0 +1,17 @@
+.service-section{
+    text-align: center;
+    padding-top: 30px;
+}
+.service-header{}
+.service-header h6{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #1CC7C1;
+}
+.service-header h4{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3d3c3c;
+    padding-bottom: 70px;
+}

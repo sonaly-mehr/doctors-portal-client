@@ -1,0 +1,104 @@
+.patients-section{
+    background-color: #F4FDFB;
+    overflow: hidden;
+}
+.recent-appoint-padding{
+    margin-left: -55px;
+}
+.dashborad-header{}
+.dashborad-header h6{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.appointment-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.single-appnt-card{
+    display: flex;
+    color: #fff;
+    width: 23%;
+    height: 90px;
+    padding-left: 25px;
+    border-radius: 8px;
+}
+.single-appnt-card h4{
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.single-appnt-card span{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.card-blue{
+    background: #3DA5F4;
+}
+.card-green{
+    background: #00C689;
+}
+.card-orange{
+    background: #FDA006;
+}
+.recent-appointments{
+    background: #fff;
+    width: 85%;
+    border-radius: 8px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    box-shadow: -5px 7px 10px 4px #ededed;
+    margin-left: 80px;
+}
+.recent-appointments h4{
+    font-size: 18px;
+    color: #26C8C4;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.recent-appointment-header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.recent-appointment-header h6{
+    color: #7d7d7d;
+    font-weight: 600;
+}
+.recent-appointment-details{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 12px;
+}
+.recent-appointment-details h6{
+    font-weight: 600;
+    color: #4a4949;
+    font-size: 16px;
+}
+.count{
+    margin-left: 35px;
+}
+.date{
+    position: relative;
+    left: 45px;
+    width: 190px;
+}
+.name{
+    position: relative;
+    left: 35px;
+    width: 140px;
+}
+.number{
+    position: relative;
+    left: 33px;
+    width: 110px;
+}
+.service{
+    position: relative;
+    left: 50px;
+    width: 160px;
+}

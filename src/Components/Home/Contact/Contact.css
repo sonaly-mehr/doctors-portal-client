@@ -1,0 +1,50 @@
+.contact-section{
+    text-align: center;
+    background-image: url(../../../images/Mask\ Group\ 4.png);
+    position: relative;
+    padding-bottom: 100px;
+}
+.contact-section::before{
+    content: '';
+    position: absolute;
+    background-color: rgba(58, 66, 86, 0.9);
+    left:0; right:0; top:0; bottom: 0;
+}
+.contact-section h6{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #1CC7C1;
+    padding-top: 50px;
+}
+.contact-section h4{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 70px;
+}
+.contact-info{
+    z-index: 50;
+    position: relative;
+}
+.contact-form{
+
+}
+.contact-form input, .contact-form textarea{
+    width: 30%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+}
+.contact-form textarea{
+    height: 150px;
+}
+.contact-form input[type="submit"]{
+    width: 15%;
+    height: 39px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    background: linear-gradient(to right, #18D2B0 , #0FCFE7);
+    border: none;
+    font-weight: 700
+}

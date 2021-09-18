@@ -1,0 +1,21 @@
+.single-appointment{
+    box-shadow: 1px 0px 10px 2px #eae9e9;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+.single-appointment h4{
+    color: #1CC7C1;
+    font-weight: 600;
+    font-size: 22px;
+}
+.single-appointment h6{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.single-appointment span{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #a7a7a7;
+    font-weight: 700;
+}

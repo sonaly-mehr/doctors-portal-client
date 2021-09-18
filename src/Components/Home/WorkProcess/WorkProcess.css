@@ -1,0 +1,32 @@
+.single-process{
+    display: flex;
+}
+.single-process .process-img{
+
+}
+.single-process .process-img img{
+    width: 100px;
+    height: 100px;
+    color: #10CFE3;
+    box-shadow: 1px 3px 10px 1px #cbcbcb;
+    padding: 20px;
+    border-radius: 5px
+}
+.process-content{
+    margin-left: 30px;
+}
+.process-content h4{
+    color: #005C66;
+    font-weight: 700;
+    width: 74%;
+}
+.process-content p{
+    color: #646262;
+    font-size: 17px;
+    line-height: 30px;
+}
+.process-content h5{
+    color: #01A7B9;
+    font-weight: 800;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,13 @@
+.appnmt-header-sec{
+    background-image: url(../../../images/Mask\ Group\ 2.png);
+    background-size: contain;
+}
+.calender-style{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.appointment-menu .menu ul{margin-top: -102px;}
+.appointment-menu .menu ul li a{
+    color: #555454;
+}
+.appnmt-header-img{padding-top: 68px;}

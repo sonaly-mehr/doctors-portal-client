@@ -1,0 +1,31 @@
+.info-primary{
+    background-color: #1CC7C1;
+}
+.info-dark{
+    background-color: #3A4256;
+}
+.single-card{
+    display: flex;
+    height: 150px;
+    padding: 40px;
+    color: #fff;
+    border-radius: 5px;
+}
+.card-logo{}
+.card-logo .card-icon{
+    color: #fff;
+    font-size: 45px
+}
+.card-info{
+    margin-left: 25px;
+    
+}
+.card-info h6{
+    font-weight: 700;
+    
+}
+.card-info p{
+    font-weight: 300;
+    font-size: 14px;
+    width: 220px;
+}

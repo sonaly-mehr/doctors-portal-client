@@ -1,0 +1,21 @@
+.testimonial-section{
+   padding-top: 100px;
+}
+.testimonial-header{}
+.quote{
+    font-size: 150px;
+    color: #D6F6F6;
+    margin-top: -10px;
+
+}
+.testimonial-header h6{
+    text-transform: uppercase;
+    color: #1CC7C1;
+    font-weight: 700;
+}
+.testimonial-header h2{
+    font-weight: 600;
+    line-height: 42px;
+    padding-top: 10px;
+    padding-bottom: 55px;
+}
