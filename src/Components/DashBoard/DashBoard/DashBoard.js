@@ -1,9 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './DashBoard.css';
 import AppointmentDates from '../AppointmentDates/AppointmentDates';
 import SideBar from '../SideBar/SideBar';
 import Calendar from 'react-calendar';
-import { useState } from 'react/cjs/react.development';
 
 const DashBoard = () => {
     const [selectedDate, setSelectedDate] = useState(new Date());
