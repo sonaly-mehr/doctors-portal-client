@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-import { useState } from 'react/cjs/react.development';
+import React, { useEffect, useState } from 'react';
 import SideBar from '../SideBar/SideBar';
 import './Patients.css';
 
@@ -48,7 +47,7 @@ const Patients = () => {
                             {
                                 appointment.map((list, num) => <div className="recent-appointment-details">
                                     <h6 className="count">{num + 1}</h6>
-                                    <h6 className="date">{list.date}</h6>
+                                    <h6 className="date">{(new Date(list.date).toDateString('dd/MM/yyyy'))}</h6>
                                     <h6 className="name">{list.name}</h6>
                                     <h6 className="number">{list.number}</h6>
                                     <h6 className="service">{list.service}</h6>
